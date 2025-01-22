@@ -1,0 +1,17 @@
+RewriteEngine On
+RewriteBase /Prismhue/
+
+# Clean URLs - map URLs like '/about' to 'index.php?page=about'
+RewriteRule ^([a-zA-Z0-9_-]+)$ index.php?page=$1 [NC,L]
+
+# Redirect to index.php when accessing root URL without parameters
+RewriteCond %{REQUEST_URI} ^/$
+RewriteRule ^$ index.php [L]
+
+# Remove .php extension from URLs
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ $1.php [L]
+
+# Set index.php as the default document
+DirectoryIndex index.php
