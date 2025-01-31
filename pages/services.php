@@ -3,7 +3,6 @@
         .card {
             margin-bottom: 75px;
             border: none;
-            border
         }
         .card img {
             width: 100%; 
@@ -65,6 +64,7 @@
 
         .card:hover .black-line {
             transform: translateY(-10px); 
+            background-color:  #4CAF4F; 
         }
 
         .card:hover .card-title {
@@ -102,7 +102,7 @@
         <div class="row">
             <div class="col-lg-6">
                 <div class="card">
-                    <a href="branding">
+                    <a href="services/branding">
                         <img src="./assets/images/branding-service.svg" alt="Branding">
                     </a>
                     <div class="black-line"></div>
@@ -114,7 +114,7 @@
             </div>
             <div class="col-lg-6">
                 <div class="card">
-                    <a href="signages">
+                    <a href="services/signages">
                         <img src="./assets/images/signages-service.svg" alt="Signages">
                     </a>
                     <div class="black-line"></div>
@@ -128,7 +128,7 @@
         <div class="row">
             <div class="col-lg-6">
                 <div class="card">
-                    <a href="acoustic-cutting-panels">
+                    <a href="services/acoustic-cutting-panels">
                         <img src="./assets/images/acoustic-cutting-panels-service.svg" alt="Acoustic Cutting Panels">
                     </a>
                     <div class="black-line"></div>
@@ -140,7 +140,7 @@
             </div>
             <div class="col-lg-6">
                 <div class="card">
-                    <a href="digital-signages">
+                    <a href="services/digital-signages">
                         <img src="./assets/images/digital-signages-service.svg" alt="Digital Signages">
                     </a>
                     <div class="black-line"></div>
@@ -155,7 +155,7 @@
         <div class="row">
             <div class="col-lg-6">
                 <div class="card">
-                    <a href="skylit">
+                    <a href="services/skylit">
                         <img src="./assets/images/skylit-service.svg" alt="Skylit">
                     </a>
                     <div class="black-line"></div>
@@ -167,7 +167,7 @@
             </div>
             <div class="col-lg-6">
                 <div class="card">
-                    <a href="braille-signages">
+                    <a href="services/braille-signages">
                         <img src="./assets/images/braille-signages-service.svg" alt="Braille Signages">
                     </a>
                     <div class="black-line"></div>
@@ -181,7 +181,7 @@
         <div class="row">
             <div class="col-lg-6">
                 <div class="card">
-                    <a href="environmental-graphics">
+                    <a href="services/environmental-graphics">
                         <img src="./assets/images/environmental-graphics-service.svg" alt="Environmental Graphics">
                     </a>
                     <div class="black-line"></div>

@@ -1,13 +1,25 @@
 $(document).ready(function(){
     $('.slick-slider').slick({
-        dots: true, // Enable dots navigation
-        autoplay: true, // Auto play the slider
-        autoplaySpeed: 3000, // 3 seconds per slide
-        arrows: false, // Disable arrows
-        infinite: true, // Enable infinite scrolling
-        pauseOnHover: false, // Prevent pausing on hover
+        dots: true,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        arrows: false,
+        infinite: true,
+        pauseOnHover: false,
+        draggable: false,
+        swipe: false,
+        touchMove: false,
+        focusOnSelect: false,
+        pauseOnFocus: false,
+        pauseOnDotsHover: false,
+    });
+
+    // Prevent default drag behavior on images inside the slider
+    $('.slick-slider img').on('dragstart', function(event) {
+        event.preventDefault();
     });
 });
+
 
 
 
@@ -106,13 +118,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
 window.addEventListener('scroll', function() {
     const header = document.querySelector('header');
-    const body = document.body;
     
-    if (window.scrollY > 100) { // Adjust this value based on when you want the header to become fixed
-        header.classList.add('fixed-header');
-        body.classList.add('fixed-header-active');
+    if (window.scrollY > 50) { // Change shadow when scrolled 50px
+        header.classList.add('scrolled');
     } else {
-        header.classList.remove('fixed-header');
-        body.classList.remove('fixed-header-active');
+        header.classList.remove('scrolled');
     }
 });
+ 

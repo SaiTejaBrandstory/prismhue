@@ -20,13 +20,13 @@
             <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
                 <h4 class="footer-title">Services</h4>
                 <ul class="footer-links">
-                    <li><a href="branding">Branding</a></li>
-                    <li><a href="signages">Signages</a></li>
-                    <li><a href="acoustic-cutting-panels">Acoustic Cutting Panels</a></li>
-                    <li><a href="digital-signages">Digital Signages</a></li>
-                    <li><a href="skylit">Skylit Solutions</a></li>
-                    <li><a href="braille-signages">Braille Signages</a></li>
-                    <li><a href="environmental-graphics">Environmental Graphics</a></li>
+                    <li><a href="services/branding">Branding</a></li>
+                    <li><a href="services/signages">Signages</a></li>
+                    <li><a href="services/acoustic-cutting-panels">Acoustic Cutting Panels</a></li>
+                    <li><a href="services/digital-signages">Digital Signages</a></li>
+                    <li><a href="services/skylit">Skylit Solutions</a></li>
+                    <li><a href="services/braille-signages">Braille Signages</a></li>
+                    <li><a href="services/environmental-graphics">Environmental Graphics</a></li>
                 </ul>
             </div>
 
@@ -95,6 +95,7 @@
     <!-- Slick JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    
 
 
     <!-- Custom JS -->

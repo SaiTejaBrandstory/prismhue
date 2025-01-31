@@ -1,17 +1,14 @@
 RewriteEngine On
 RewriteBase /Prismhue/
 
-# Clean URLs - map URLs like '/about' to 'index.php?page=about'
+# Clean URLs for main pages (e.g., /about, /branding)
 RewriteRule ^([a-zA-Z0-9_-]+)$ index.php?page=$1 [NC,L]
 
-# Redirect to index.php when accessing root URL without parameters
-RewriteCond %{REQUEST_URI} ^/$
-RewriteRule ^$ index.php [L]
+# Handle '/services/branding'
+RewriteRule ^services/([a-zA-Z0-9_-]+)$ index.php?page=services&category=$1 [NC,L]
 
-# Remove .php extension from URLs
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ $1.php [L]
+# Handle '/services/branding/corporate-branding'
+RewriteRule ^services/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)$ index.php?page=services&category=$1&subpage=$2 [NC,L]
 
 # Set index.php as the default document
 DirectoryIndex index.php
