@@ -12,13 +12,13 @@
             <!-- Right Side: Green background with images -->
             <div class="col-lg-6 ">
                 <div class="slick-slider">
-                    <div><img src="./assets/images/prismhue-image-one.svg" alt="prismhue-image-one"></div>
-                    <div><img src="./assets/images/prismhue-image-two.svg" alt="prismhue-image-two"></div>
-                    <div><img src="./assets/images/prismhue-image-three.svg" alt="prismhue-image-three"></div>
-                    <div><img src="./assets/images/prismhue-image-four.svg" alt="prismhue-image-four"></div>
-                    <div><img src="./assets/images/prismhue-image-five.svg" alt="prismhue-image-five"></div>
-                    <div><img src="./assets/images/prismhue-image-six.svg" alt="prismhue-image-six"></div>
-                    <div><img src="./assets/images/prismhue-image-seven.svg" alt="prismhue-image-seven"></div>
+                    <div><img src="./assets/images/prismhue-image-one.webp" alt="prismhue-image-one"></div>
+                    <div><img src="./assets/images/prismhue-image-two.webp" alt="prismhue-image-two"></div>
+                    <div><img src="./assets/images/prismhue-image-three.webp" alt="prismhue-image-three"></div>
+                    <div><img src="./assets/images/prismhue-image-four.webp" alt="prismhue-image-four"></div>
+                    <div><img src="./assets/images/prismhue-image-five.webp" alt="prismhue-image-five"></div>
+                    <div><img src="./assets/images/prismhue-image-six.webp" alt="prismhue-image-six"></div>
+                    <div><img src="./assets/images/prismhue-image-seven.webp" alt="prismhue-image-seven"></div>
                 </div>
             </div>
         </div>
@@ -31,49 +31,49 @@
         <div class="slick-second-section">
             <!-- Card 1 -->
             <div class="second-section-card">
-                <img src="./assets/images/branding.svg" class="second-section-img" alt="Branding">
+                <img src="./assets/images/branding.webp" class="second-section-img" alt="Branding">
                 <hr class="second-section-line green-line">
                 <h5 class="card-heading">Branding</h5>
                 <p class="second-section-text white-text">At Prismhue, we offer extensive branding solutions transforming spaces with vibrant creatives, custom signage, wall art, and visual merchandising to create a memorable and impactful brand presence.</p> <br>
             </div>
             <!-- Card 2 -->
             <div class="second-section-card">
-                <img src="./assets/images/signages.svg" class="second-section-img" alt="Signages">
+                <img src="./assets/images/signages.webp" class="second-section-img" alt="Signages">
                 <hr class="second-section-line white-line">
                 <h5 class="card-heading">Signages</h5>
                 <p class="second-section-text green-text">Delivering lively, powerful signage solutions (internal & external) that are suited to enthral your audience, increase brand awareness, and clearly convey your message.</p> <br>
             </div>
             <!-- Card 3 -->
             <div class="second-section-card">
-                <img src="./assets/images/cutting-panels.svg" class="second-section-img" alt="Acoustic Cutting Panels">
+                <img src="./assets/images/cutting-panels.webp" class="second-section-img" alt="Acoustic Cutting Panels">
                 <hr class="second-section-line green-line">
                 <h5 class="card-heading">Acoustic Cutting Panels</h5>
                 <p class="second-section-text white-text">Providing fast, precise, and high-quality acoustic cutting solutions with advanced technology that ensures flawless results for various projects, from ads to personalized packaging.</p> <br>
             </div>
             <!-- Card 4 -->
             <div class="second-section-card">
-                <img src="./assets/images/digital-signages.svg" class="second-section-img" alt="Digital Signages">
+                <img src="./assets/images/digital-signages.webp" class="second-section-img" alt="Digital Signages">
                 <hr class="second-section-line white-line">
                 <h5 class="card-heading">Digital Signages</h5>
                 <p class="second-section-text green-text">From kiosks and menu boards to LCD & LED screens, e-papers, and other digital boards, Prismhue offers digital signage experiences and customisable solutions for unique business needs.</p> <br>
             </div>
             <!-- Card 5 -->
             <div class="second-section-card">
-                <img src="./assets/images/cutting-panels.svg" class="second-section-img" alt="Skylit">
+                <img src="./assets/images/cutting-panels.webp" class="second-section-img" alt="Skylit">
                 <hr class="second-section-line green-line">
                 <h5 class="card-heading">Skylit</h5>
                 <p class="second-section-text white-text">Our skylights brighten spaces naturally, reducing energy costs while enhancingwell-being. Perfect for homes, offices, and commercial spaces, they create a bright, eco-friendly atmosphere.</p> <br>
             </div>
             <!-- Card 6 -->
             <div class="second-section-card">
-                <img src="./assets/images/digital-signages.svg" class="second-section-img" alt="Braille Signages">
+                <img src="./assets/images/digital-signages.webp" class="second-section-img" alt="Braille Signages">
                 <hr class="second-section-line white-line">
                 <h5 class="card-heading">Braille Signages</h5>
                 <p class="second-section-text green-text">Prismhue’s braille signs blend style and functionality, ensuring accessibility in workplaces, retail spaces, and public buildings. Designed for inclusivity, they foster independence and a welcoming environment.</p> <br>
             </div>
             <!-- Card 7 -->
             <div class="second-section-card">
-                <img src="./assets/images/cutting-panels.svg" class="second-section-img" alt="Environmental Graphics">
+                <img src="./assets/images/cutting-panels.webp" class="second-section-img" alt="Environmental Graphics">
                 <hr class="second-section-line green-line">
                 <h5 class="card-heading">Environmental Graphics</h5>
                 <p class="second-section-text white-text">We turn your walls, windows, and floors into eye-catching designs that speak to people. With eco-friendly inks, we create unique, vibrant displays that bring life to workplaces, stores, and public spaces.</p> <br>
@@ -233,7 +233,7 @@
             <div class="col-lg-4 col-md-12 mb-4">
                 <div class="service-item">
                     <div class="service-img">
-                        <img src="./assets/images/latex-solutions.svg" alt="Wide-Format HP Latex Solutions">
+                        <img src="./assets/images/latex-solutions.webp" alt="Wide-Format HP Latex Solutions">
                     </div>
                     <h3>Wide-Format & <br>HP Latex Solutions</h3>
                 </div>
@@ -242,7 +242,7 @@
             <div class="col-lg-4 col-md-12 mb-4">
                 <div class="service-item">
                     <div class="service-img">
-                        <img src="./assets/images/vehicle-branding.svg" alt="Roadshow Vehicle Branding">
+                        <img src="./assets/images/vehicle-branding.webp" alt="Roadshow Vehicle Branding">
                     </div>
                     <h3>Roadshow <br>Vehicle Branding</h3>
                 </div>
@@ -251,7 +251,7 @@
             <div class="col-lg-4 col-md-12 mb-4">
                 <div class="service-item">
                     <div class="service-img">
-                        <img src="./assets/images/retail-display.svg" alt="Retail Display">
+                        <img src="./assets/images/retail-display.webp" alt="Retail Display">
                     </div>
                     <h3>Retail Display <br></h3>
                 </div>
@@ -271,19 +271,19 @@
         
         <div class="works-slider">
             <div class="work-item">
-                <img src="./assets/images/work1.svg" alt="Work 1">
+                <img src="./assets/images/work1.webp" alt="Work 1">
             </div>
             <div class="work-item">
-                <img src="./assets/images/retail-display.svg" alt="Work 2">
+                <img src="./assets/images/retail-display.webp" alt="Work 2">
             </div>
             <div class="work-item">
-                <img src="./assets/images/vehicle-branding.svg" alt="Work 3">
+                <img src="./assets/images/vehicle-branding.webp" alt="Work 3">
             </div>
             <div class="work-item">
-                <img src="./assets/images/work1.svg" alt="Work 4">
+                <img src="./assets/images/work1.webp" alt="Work 4">
             </div>
             <div class="work-item">
-                <img src="./assets/images/retail-display.svg" alt="Work 5">
+                <img src="./assets/images/retail-display.webp" alt="Work 5">
             </div>
         </div>
     </div>
