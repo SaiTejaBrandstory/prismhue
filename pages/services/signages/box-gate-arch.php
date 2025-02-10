@@ -1,5 +1,5 @@
 <section class=" full-width-section">
-        <img src="./assets/images/branding-sub-service.svg" alt="Box Gate Arch Signage">
+        <img src="./assets/images/services-banner-img.webp" alt="Box Gate Arch Signage">
 </section>
 
 <section>

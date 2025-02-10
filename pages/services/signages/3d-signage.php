@@ -1,5 +1,5 @@
 <section class=" full-width-section">
-        <img src="./assets/images/branding-sub-service.svg" alt="3D Signage">
+        <img src="./assets/images/services-banner-img.webp" alt="3D Signage">
 </section>
 
 <section>

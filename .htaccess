@@ -4,11 +4,14 @@ RewriteBase /Prismhue/
 # Clean URLs for main pages (e.g., /about, /branding)
 RewriteRule ^([a-zA-Z0-9_-]+)$ index.php?page=$1 [NC,L]
 
-# Handle '/services/branding'
-RewriteRule ^services/([a-zA-Z0-9_-]+)$ index.php?page=services&category=$1 [NC,L]
+# Handle deep service URLs (e.g., services/branding/external-signages/hoardings)
+RewriteRule ^services/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)$ index.php?page=services&category=$1&subcategory=$2&subpage=$3 [NC,L]
 
-# Handle '/services/branding/corporate-branding'
-RewriteRule ^services/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)$ index.php?page=services&category=$1&subpage=$2 [NC,L]
+# Handle sub-service level (e.g., services/branding/external-signages)
+RewriteRule ^services/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)$ index.php?page=services&category=$1&subcategory=$2 [NC,L]
+
+# Handle main service page (e.g., services/branding)
+RewriteRule ^services/([a-zA-Z0-9_-]+)$ index.php?page=services&category=$1 [NC,L]
 
 # Set index.php as the default document
 DirectoryIndex index.php

@@ -560,7 +560,7 @@ header{
 
 .fourth-section {
     position: relative;
-    background-image: url('../images/fourth-section-bg.svg');
+    background-image: url('../images/fourth-section-bg.webp');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -975,7 +975,7 @@ header{
 .testimonial-section {
     position: relative;
     padding: 80px 0;
-    background-image: url('../images/testimonials-bg.svg');
+    background-image: url('../images/testimonials-bg.webp');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -2085,10 +2085,10 @@ body.fixed-header-active {
     padding: 0 120px;
  }
 
- @media (max-width: 767.98px) {
+ @media (max-width: 768px) {
     .section-sub-heading {
-         font-size: 32px;
-         padding: 40px 0;
+         font-size: 28px;
+         padding: 35px 0;
     }
     .section-sub-paragraph {
         font-size: 18px; 

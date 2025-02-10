@@ -1,0 +1,17 @@
+{
+    "name": "brand-story/prismhue",
+    "autoload": {
+        "psr-4": {
+            "BrandStory\\Prismhue\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "SaiTejaBrandstory",
+            "email": "saiteja@brandstory.in"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.9"
+    }
+}

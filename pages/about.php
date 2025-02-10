@@ -22,7 +22,7 @@
             <!-- Right Column - Image -->
             <div class="col-lg-6 order-first order-lg-last">
                 <div class="about-image">
-                    <img src="./assets/images/about-us.svg" alt="Prismhue Signage Company" class="img-fluid">
+                    <img src="./assets/images/about-us.webp" alt="Prismhue Signage Company" class="img-fluid">
                 </div>
             </div>
         </div>

@@ -1,5 +1,5 @@
 <section class=" full-width-section">
-        <img src="./assets/images/branding-sub-service.svg" alt="Billboards">
+        <img src="./assets/images/services-banner-img.webp" alt="Billboards">
 </section>
 
 <section>

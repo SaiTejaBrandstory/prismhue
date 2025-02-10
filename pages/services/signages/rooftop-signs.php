@@ -1,5 +1,5 @@
 <section class=" full-width-section">
-        <img src="./assets/images/branding-sub-service.svg" alt="Rooftop Signs">
+        <img src="./assets/images/services-banner-img.webp" alt="Rooftop Signs">
 </section>
 
 <section>
